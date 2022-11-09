@@ -37,20 +37,25 @@ I created 16 rows and 5 columns with gutters of 20px and margins of 77px and 10p
 
 ## Typography Variations
 
-Typography in interface promotes legibility, communicates tone and sentiment, and delivers an aesthetic effect perceived almost instantly by the user. Typography is one of the first things noticed in interface design, and it is one of the most important. In the following iterations, I utilized information and advice from Google Fonts *link*, Material Design *link*, Smashing Magazine *link*, and Looka *link.
+Typography in interface promotes legibility, communicates tone and sentiment, and delivers an aesthetic effect perceived almost instantly by the user. Typography is one of the first things noticed in interface design, and it is one of the most important. In the following iterations, I utilized information and advice from [Google Fonts](https://fonts.google.com/), [Material Design](https://material.io/design/typography/understanding-typography.html#type-properties), [Smashing Magazine](https://www.smashingmagazine.com/2010/11/best-practices-of-combining-typefaces/), and [Looka](https://looka.com/blog/best-serif-fonts/).
 
 ![image](https://user-images.githubusercontent.com/114698093/200814980-b22fa2c9-3588-4bbe-9a9b-4f213ade8c6a.png)
 
 ### Decision Process and Design Details
-For typography, I wanted a look that is fun yet professional. First, I tried using the Quicksand font because it has a young, fun appearance with the rounded corners and different boldness options. Second, I tested the Spectral font, which had a much more professional look. After these two tests, I felt that Quicksand appeared slightly too disorganized/unprofessional, and Spectral appeared too formal. I researched more fonts through [Google Fonts](https://fonts.google.com/), and found that Roboto Slab was a happy medium of these two fonts. Using Roboto Slab for every text item on the application was a bit much, so I mixed in Roboto for subtitles, and used Playfair Display for the main app title. My final topography is shown at the very right in the image above. Details for these fonts are below.
+- After scrolling through Google Fonts looking for different text styles, I ran across an article from [Smashing Magazine](https://www.smashingmagazine.com/2010/11/best-practices-of-combining-typefaces/), an online source for web designers and developers. The article listed out several guidelines when selecting and combining typeface families. The first principle the article listed was to combine a serif with a san-serif. Other typeface combination suggestions the site mentioned include avoiding similar classifications, contrasting font weights, trying just two typefaces, etc. I kept the aforementioned suggestions in mind when creating the following iterations. I wanted my typography to both be modern and fun, as this is a mobile application with young adults as the primary target audience. In iteration one, I chose Courier Prime and Public Sans as the two font families. I also bolded the app name and all headers. I didn’t like this font combination at all, as Courier Prime was too sharp and Public Sans was not modern-looking enough.
+- In iteration two, I chose Baskerville and Inter font families. Baskerville is a serif, whereas Inter is a san serif. While conducting more research, I came across an [article](https://looka.com/blog/best-serif-fonts/) written by Enina Bicaku, a content marketing specialist with an emphasis in graphic design. The article listed advice when pairing serifs and san serifs. Furthermore, I found that you should not use serif fonts for long-form display text. Rather, serif headings pair well with sans serif bodies in digital environments. I mixed this around in my first iteration so I made sure to correct it in the second. Although there were vast improvements, I still didn’t love this iteration, as the Baskerville font did not come with the option to bold or lighten. Having different font weights in different places is crucial to my design, as the differences between them promote legibility and will lead users in the correct direction. 
+- After testing a few combinations I decided on Work Sans and Merriweather as the two font families featured in my application. This combination hit all of the suggestions referenced in the aforementioned sources and met my own personal criteria. I wanted the serif I chose to look clean and modern to avoid compromising the trustworthiness or legitimacy of the application. I prioritized the fit and readability when selecting the body text. The Merriweather serif would be utilized for the headers in the application and the Work Sans san-serif would be utilized for the body texts. In this final iteration, I also changed the alignment of the text under carpool and commute group to make the text a little more neat and away from the margins.  For the font sizes and letter spacing, I referred to the ratio recommended by [material design](https://material.io/design/typography/the-type-system.html#type-scale) and made small edits as needed. The specifications of the text are listed below. 
 
-| Text | Typeface | Font Size | Weight |
+
+| Text | Typeface | Font Size | Weight | Spacing |
 |---|---|---|---|
-| Main Title (H1) | Playfair Display | 54px | Bold |
-| Lesson Title (H2) | Roboto Slab | 34px | Regular |
-| Lesson Subtitle (H3) | Roboto | 20px | Light Italic |
-| Button Label (H4) | Roboto Slab | 24px | Regular |
-| Status Percent (H6) | Roboto | 11px | Light |
+| Decorative Headers | Merriweather | 38px | Bold | 5% |
+| Headers | Merriweather | 34px | Bold | 0.2 px |
+| Button Text | Work Sans | 22px | Semibold | 0.2 px |
+| Subheaders | Work Sans | 20px | Medium | 0.2 px |
+| Light Body Text | Work Sans | 18px | Light | 0 px |
+| Icon Labels | Work Sans | 20px | Regular | 0 px |
+| Navigation Bar Text | Work Sans | 20px | Regular | 0 px |
 
 
 ## Shape Variations
