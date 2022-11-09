@@ -26,6 +26,9 @@ In the following analysis, I will highlight the graphical user interface design 
 
 
 ## Overall Layout
+
+Creating a proper overall layout grid is essential to intelligently organizing information and controlling spacing in the interface. The layout grid is the foundation of the application and is made up of rows, columns, margins, and gutters. I organized the information according to this layout grid as shown below.
+
 ![image](https://user-images.githubusercontent.com/114698093/200815107-7fdc5e16-836d-488a-ab21-523c572e08a0.png)
 
 ### Decision Process and Design Details
@@ -33,6 +36,9 @@ I created 16 rows and 5 columns with gutters of 20px and margins of 77px and 10p
 
 
 ## Typography Variations
+
+Typography in interface promotes legibility, communicates tone and sentiment, and delivers an aesthetic effect perceived almost instantly by the user. Typography is one of the first things noticed in interface design, and it is one of the most important. In the following iterations, I utilized information and advice from Google Fonts *link*, Material Design *link*, Smashing Magazine *link*, and Looka *link.
+
 ![image](https://user-images.githubusercontent.com/114698093/200814980-b22fa2c9-3588-4bbe-9a9b-4f213ade8c6a.png)
 
 ### Decision Process and Design Details
@@ -71,6 +77,17 @@ A color scheme is one of the first elements to communicate the message behind th
 - My first iteration of the color scheme for the light mode features a light blue background, offwhite rectangular text backgrounds, and a sage green navigation bar and buttons. This scheme was based on colors representing the daytime sky, clouds, and grass. Although I liked the color scheme, I didn’t love the selection of colors for each element and wanted to change it up.
 - For the final iteration I wanted to build off the scheme I created in the first draft. I lightened up the blue and green to better represent the sky and grass. Furthermore, I switched up the selection of colors for each element. The background of the light mode is now a light green, and the text background is now a light blue. The navigation and buttons are offwhite with black icons and text.
 
+### Color Wheel
+
+![image](https://user-images.githubusercontent.com/114698093/200818397-e4f1fb0f-5272-4891-babc-b5c4ddcaf285.png)
+
+
+### Accessibility / Color Contrast Check
+
+![image](https://user-images.githubusercontent.com/114698093/200818203-e33eb152-91eb-4108-a20a-17841b8cb5b5.png)
+
+
+
 ### Dark Mode
 
 ![image](https://user-images.githubusercontent.com/114698093/200815709-04091275-5169-4c8a-851c-43467a541a3b.png)
@@ -78,6 +95,15 @@ A color scheme is one of the first elements to communicate the message behind th
 ### Decision Process and Design Details
 - My first iteration of the color scheme for the dark mode features a black background, dark blue rectangular text backgrounds, and a sage green navigation bar and buttons. This color scheme was the night version of my first light mode iteration. The selections are meant to come together to represent the sights one would see in nature at night. Although I liked this general scheme, it didn’t scream nature to me so I decided to make a few adjustments. 
 - My final iteration of the color scheme varied significantly from the first. Although the background color remains the same, the colors of the text background and navigation bar/buttons have changed dramatically. I chose jungle green for the navigation bar and button, as I felt like it contrasted well with the white icons and text. I made the text backgrounds brown, as the combination with the jungle green reminded me of trees at night. 
+
+### Color Wheel
+
+![image](https://user-images.githubusercontent.com/114698093/200818459-dabe90d1-2ce8-4e2e-add4-17c93a5c6e1e.png)
+
+
+### Accessibility / Color Contrast Check
+
+![image](https://user-images.githubusercontent.com/114698093/200818284-e920e5cc-875b-4a76-8ddb-80ace3acf96b.png)
 
 
 ## Design Summary
