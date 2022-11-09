@@ -16,15 +16,14 @@ The purpose of this interface design is to convert the previously created low-fi
 #### Initial Wireframe of the "Ride" Page that I will design:
 ![image](https://user-images.githubusercontent.com/114698093/200813861-53f022a8-70d6-41ac-aff0-f8acf0ebcffa.png)
 
+Initial Wireframe from Low Fidelity Prototype Phase.
 
-
-## Graphical Interface Design Variation
-
-## Design and GUI Component Layout
-![image](https://user-images.githubusercontent.com/114698093/200814120-8005ac1d-1595-418d-8af6-ce30bd928772.png)
 
 ### Decision Process
-In the following analysis, I will highlight the graphical user interface design variations made on a singular wireframe in my interface design. The wireframe I will be featuring in this analysis is the general “Rides” page on the application. I chose to use this page rather than any others as it features a combination of icons, buttons, and several forms of text and layers. Furthermore, the Rides page is one of the central pages on the application and is able to be accessed from the home page directly after opening the app. The features available on the Ride page is also central to the functionality of the application. Digitizing the Rides page and creating this graphic design system will aid me in creating additional pages to my application, as the presets for the texts and colors are programmed into the document. 
+In the following analysis, I will highlight the graphical user interface design variations made on a singular wireframe in my interface design. The wireframe I will be featuring in this analysis is the general “Rides” page on the application. I chose to use this page rather than any others as it features a combination of icons, buttons, and several forms of text and layers. Furthermore, the Rides page is one of the central pages on the application and is able to be accessed from the home page directly after opening the app. The features available on the Ride page is also central to the functionality of the application. Digitizing the Rides page and creating this graphic design system will aid me in creating additional pages to my application, as the presets for the texts and colors are programmed into the document. The finalized light and dark mode of the Rides page is shown below:
+
+![image](https://user-images.githubusercontent.com/114698093/200814120-8005ac1d-1595-418d-8af6-ce30bd928772.png)
+
 
 ## Overall Layout
 ![image](https://user-images.githubusercontent.com/114698093/200815107-7fdc5e16-836d-488a-ab21-523c572e08a0.png)
