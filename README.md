@@ -29,15 +29,14 @@ In the following analysis, I will highlight the graphical user interface design 
 ![image](https://user-images.githubusercontent.com/114698093/200815107-7fdc5e16-836d-488a-ab21-523c572e08a0.png)
 
 ### Decision Process and Design Details
-For typography, I wanted a look that is fun yet professional. First, I tried using the Quicksand font because it has a young, fun appearance with the rounded corners and different boldness options. Second, I tested the Spectral font, which had a much more professional look. After these two tests, I felt that Quicksand appeared slightly too disorganized/unprofessional, and Spectral appeared too formal. I researched more fonts through [Google Fonts](https://fonts.google.com/), and found that Roboto Slab was a happy medium of these two fonts. Using Roboto Slab for every text item on the application was a bit much, so I mixed in Roboto for subtitles, and used Playfair Display for the main app title. My final topography is shown at the very right in the image above. Details for these fonts are below.
-
+I created 16 rows and 5 columns with gutters of 20px and margins of 77px and 10px for the rows and columns respectively. I chose to include 16 rows in my layout as I had 16 elements of text at different y-axis locations inside the two information boxes. Margins of 77px would allow me to tightly encompass the two rectangles into the layout, allowing me to equally and efficiently space out my text in the two boxes. I chose to include 5 columns because of the 5 navigation icons on the bottom of the page. I had elements that needed to be centered directly and elements I wanted to separate according to the equally spaced icons on the bottom of the screen. A margin in 10px in this case would allow me to properly format any elements close to the edge of the screen. I abided by the principles of Gestalt theory *link* to organize any visual elements in my design.
 
 
 ## Typography Variations
 ![image](https://user-images.githubusercontent.com/114698093/200814980-b22fa2c9-3588-4bbe-9a9b-4f213ade8c6a.png)
 
 ### Decision Process and Design Details
-I tested three button variations: rectangle with slightly rounded corners, rectangle with one circular corner, and rectangle with fully rounded corners. While I thought that the one circular corner option was unique, I felt that it had too much movement in the design. I decided to go with the slightly rounded corner option, because the buttons appeared more stable and stationary. This stationary look is what I feel goes best with learning-topic-buttons. Details for this design are below:
+For typography, I wanted a look that is fun yet professional. First, I tried using the Quicksand font because it has a young, fun appearance with the rounded corners and different boldness options. Second, I tested the Spectral font, which had a much more professional look. After these two tests, I felt that Quicksand appeared slightly too disorganized/unprofessional, and Spectral appeared too formal. I researched more fonts through [Google Fonts](https://fonts.google.com/), and found that Roboto Slab was a happy medium of these two fonts. Using Roboto Slab for every text item on the application was a bit much, so I mixed in Roboto for subtitles, and used Playfair Display for the main app title. My final topography is shown at the very right in the image above. Details for these fonts are below.
 
 | Text | Typeface | Font Size | Weight |
 |---|---|---|---|
@@ -49,22 +48,37 @@ I tested three button variations: rectangle with slightly rounded corners, recta
 
 
 ## Shape Variations
+
+Shapes can be used to reflect a specific purpose or meaning. Text or icons can help reinforce that meaning when the shape of a surface alone could be ambiguous. I created 3 different shape scheme iterations using the guidance provided by Material Design *link*.
+
 ![image](https://user-images.githubusercontent.com/114698093/200815496-6b67f2f0-0eb9-4ce2-8144-60c3d86ac199.png)
 
 ### Decision Process and Design Details
-I accessed these chat icons from [Icons8.com](https://icons8.com/). However, if I had more time on this part of my project, I would have designed each icon by hand. These were the top four chat icons I liked from the site. I tested two round chat shapes, one rectangular chat shape, and one multi-chat icon. When testing these icons, I felt that the circle shape was too tall and looked unprofessional. I appreciated the rectangular icon, but it appeared slightly too square for the overall look. Thus, I decided to use the ovular chat shape because it has less height, but still has roundness. This is seen in the second frame in the image above. The icon image measures 36px by 27px.
+- For my first iteration, I added a rectangle in the background of the text to accentuate the information and actions listed on this page. I also created four rectangular action buttons inside the larger rectangle. 
+- In my second iteration, I wanted to separate the large rectangle into two separate ones to indicate the two separate options: carpooling and commute groups. I did this in my second iteration and carefully extended the width of both boxes. I wanted my boxes to be wide enough to handle the amount of text written, but have large enough margins to be able to easily read the edges of the information.
+- In my final iteration, I wanted to account for the possibility of larger fingers on a small screen. Because of this, I further separated the find button from the share button and the join button from the create button respectively. Furthermore, I wanted my design to look both modern and fun. Thus, I rounded the corners of the larger rectangles to 10 corner radius and the buttons to 20 corner radius. Rounding the corners makes the application feel more light-hearted, while preventing the page from looking outdated. I wanted to make the buttons seem 3D as an additional indicator that the buttons are clickable, so I added a drop shadow effect onto them. 
 
-## Color Scheme Variation: Light Mode
+
+## Color Scheme Variation:
+
+A color scheme is one of the first elements to communicate the message behind the design on both visual and psychological levels. When creating my color scheme I referenced the principles outlined by Material Design. Furthermore, I wanted to keep constant with the environmental theme, so I decided to primarily focus on Earth colors and tones. I created two iterations each for a light and dark mode version of my application.
+
+### Light Mode
+
 ![image](https://user-images.githubusercontent.com/114698093/200815603-cecc1fc7-d00d-49c2-926d-27b0a8ceddd0.png)
 
 ### Decision Process and Design Details
-As I continued to look at my design, I felt it needed a more clear grouping of elements. Based on [Gestalt Theory](https://material.io/design/layout/understanding-layout.html#composition), both implicit containment and explicit containment can help improve a design's visual grouping. I decided to create a unique shape to add movement and create explicit containment around the top section of the screen. Details for the shape design are documented under [Design Summary](#design-summary). I then utilized my original grid layout to ensure that the elements were still spaced properly. Lastly, I added a drop-shadow to the buttons and rounded the corners of the status bars (2px). The final design is shown in the rightmost frame in the image above.
+- My first iteration of the color scheme for the light mode features a light blue background, offwhite rectangular text backgrounds, and a sage green navigation bar and buttons. This scheme was based on colors representing the daytime sky, clouds, and grass. Although I liked the color scheme, I didn’t love the selection of colors for each element and wanted to change it up.
+- For the final iteration I wanted to build off the scheme I created in the first draft. I lightened up the blue and green to better represent the sky and grass. Furthermore, I switched up the selection of colors for each element. The background of the light mode is now a light green, and the text background is now a light blue. The navigation and buttons are offwhite with black icons and text.
 
-## Color Scheme Variation: Dark Mode
+### Dark Mode
+
 ![image](https://user-images.githubusercontent.com/114698093/200815709-04091275-5169-4c8a-851c-43467a541a3b.png)
 
 ### Decision Process and Design Details
-I tested several different color variations. Six are shown above. To help me decide color schemes, I used [Adobe Color](https://color.adobe.com/create/color-wheel) for color combinations and [Visme](https://visme.co/blog/website-color-schemes/) for further inspiration. I tested Analagous, Complementary, Monochromatic, and Primary color combinations. Different shades and hues were used to color the individual components of the design. I researched more about color psychology, specifically for [color in branding](https://www.ignytebrands.com/the-psychology-of-color-in-branding/#3), and found that blue and purple hues are what I would like to use for my music learning app. Blue instills a sense of dependability, logic, serenity, and security. Whereas purple instills a sense of wisdom, imagination, and sophistication. I decided to test more variations of the monochromatic indigo design in the bottom left frame shown above.
+- My first iteration of the color scheme for the dark mode features a black background, dark blue rectangular text backgrounds, and a sage green navigation bar and buttons. This color scheme was the night version of my first light mode iteration. The selections are meant to come together to represent the sights one would see in nature at night. Although I liked this general scheme, it didn’t scream nature to me so I decided to make a few adjustments. 
+- My final iteration of the color scheme varied significantly from the first. Although the background color remains the same, the colors of the text background and navigation bar/buttons have changed dramatically. I chose jungle green for the navigation bar and button, as I felt like it contrasted well with the white icons and text. I made the text backgrounds brown, as the combination with the jungle green reminded me of trees at night. 
+
 
 ## Design Summary
 
