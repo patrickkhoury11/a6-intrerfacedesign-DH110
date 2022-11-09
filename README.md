@@ -108,7 +108,7 @@ A color scheme is one of the first elements to communicate the message behind th
 
 ## Design Summary
 
-* Typography: 
+Typography: 
 - Decorative Headers: Merriweather, Bold, 38 Font Size, 5% Spacing
 - Headers: Merriweather, Bold, 24 Font Size, 0.2 px Spacing
 - Button Text: Work Sans, Semibold, 22 Font Size, 0.2 px Spacing
@@ -117,19 +117,19 @@ A color scheme is one of the first elements to communicate the message behind th
 - Icon Labels: Work Sans, Regular, 20 Font Size, 0 px Spacing
 - Navigation Bar Text: Work Sans, Regular, 20 Font Size, 0 px Spacing
 
-* Color Scheme (Light Mode):
+Color Scheme (Light Mode):
 - Primary Color: Light Sage Green
 - Secondary: Sky Blue
 - Focus: Off-White
 - Text: Black
 
-* Color Scheme (Dark Mode):
+Color Scheme (Dark Mode):
 - Primary: Black
 - Secondary: Brown
 - Focus: Forest Green
 - Text: White
 
-* Layout: 
+Layout: 
 - I created 16 rows and 5 columns with gutters of 20px and margins of 77px and 10px for the rows and columns respectively. I chose to include 16 rows in my layout as I had 16 elements of text at different y-axis locations inside the two information boxes. Margins of 77px would allow me to tightly encompass the two rectangles into the layout, allowing me to equally and efficiently space out my text in the two boxes. I chose to include 5 columns because of the 5 navigation icons on the bottom of the page. I had elements that needed to be centered directly and elements I wanted to separate according to the equally spaced icons on the bottom of the screen. A margin in 10px in this case would allow me to properly format any elements close to the edge of the screen. I abided by the principles of Gestalt theory *link* to organize any visual elements in my design.
 
 
