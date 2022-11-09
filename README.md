@@ -32,7 +32,7 @@ Creating a proper overall layout grid is essential to intelligently organizing i
 ![image](https://user-images.githubusercontent.com/114698093/200815107-7fdc5e16-836d-488a-ab21-523c572e08a0.png)
 
 ### Decision Process and Design Details
-I created 16 rows and 5 columns with gutters of 20px and margins of 77px and 10px for the rows and columns respectively. I chose to include 16 rows in my layout as I had 16 elements of text at different y-axis locations inside the two information boxes. Margins of 77px would allow me to tightly encompass the two rectangles into the layout, allowing me to equally and efficiently space out my text in the two boxes. I chose to include 5 columns because of the 5 navigation icons on the bottom of the page. I had elements that needed to be centered directly and elements I wanted to separate according to the equally spaced icons on the bottom of the screen. A margin in 10px in this case would allow me to properly format any elements close to the edge of the screen. I abided by the principles of Gestalt theory *link* to organize any visual elements in my design.
+I created 16 rows and 5 columns with gutters of 20px and margins of 77px and 10px for the rows and columns respectively. I chose to include 16 rows in my layout as I had 16 elements of text at different y-axis locations inside the two information boxes. Margins of 77px would allow me to tightly encompass the two rectangles into the layout, allowing me to equally and efficiently space out my text in the two boxes. I chose to include 5 columns because of the 5 navigation icons on the bottom of the page. I had elements that needed to be centered directly and elements I wanted to separate according to the equally spaced icons on the bottom of the screen. A margin in 10px in this case would allow me to properly format any elements close to the edge of the screen. I abided by the principles of [Gestalt theory](https://material.io/design/layout/understanding-layout.html#composition) to organize any visual elements in my design.
 
 
 ## Typography Variations
@@ -57,7 +57,7 @@ Typography in interface promotes legibility, communicates tone and sentiment, an
 
 ## Shape Variations
 
-Shapes can be used to reflect a specific purpose or meaning. Text or icons can help reinforce that meaning when the shape of a surface alone could be ambiguous. I created 3 different shape scheme iterations using the guidance provided by Material Design *link*.
+Shapes can be used to reflect a specific purpose or meaning. Text or icons can help reinforce that meaning when the shape of a surface alone could be ambiguous. I created 3 different shape scheme iterations using the guidance provided by [Material Design](https://material.io/design/shape/about-shape.html#shape-and-meaning).
 
 ![image](https://user-images.githubusercontent.com/114698093/200815496-6b67f2f0-0eb9-4ce2-8144-60c3d86ac199.png)
 
@@ -69,7 +69,7 @@ Shapes can be used to reflect a specific purpose or meaning. Text or icons can h
 
 ## Color Scheme Variation:
 
-A color scheme is one of the first elements to communicate the message behind the design on both visual and psychological levels. When creating my color scheme I referenced the principles outlined by Material Design. Furthermore, I wanted to keep constant with the environmental theme, so I decided to primarily focus on Earth colors and tones. I created two iterations each for a light and dark mode version of my application.
+A color scheme is one of the first elements to communicate the message behind the design on both visual and psychological levels. When creating my color scheme I referenced the principles outlined by [Material Design](https://material.io/design/color/the-color-system.html#tools-for-picking-colors). Furthermore, I wanted to keep constant with the environmental theme, so I decided to primarily focus on Earth colors and tones. I created two iterations each for a light and dark mode version of my application.
 
 ### Light Mode
 
@@ -132,7 +132,7 @@ Color Scheme (Dark Mode):
 - Text: White
 
 Layout: 
-- I created 16 rows and 5 columns with gutters of 20px and margins of 77px and 10px for the rows and columns respectively. I chose to include 16 rows in my layout as I had 16 elements of text at different y-axis locations inside the two information boxes. Margins of 77px would allow me to tightly encompass the two rectangles into the layout, allowing me to equally and efficiently space out my text in the two boxes. I chose to include 5 columns because of the 5 navigation icons on the bottom of the page. I had elements that needed to be centered directly and elements I wanted to separate according to the equally spaced icons on the bottom of the screen. A margin in 10px in this case would allow me to properly format any elements close to the edge of the screen. I abided by the principles of Gestalt theory *link* to organize any visual elements in my design.
+- I created 16 rows and 5 columns with gutters of 20px and margins of 77px and 10px for the rows and columns respectively. I chose to include 16 rows in my layout as I had 16 elements of text at different y-axis locations inside the two information boxes. Margins of 77px would allow me to tightly encompass the two rectangles into the layout, allowing me to equally and efficiently space out my text in the two boxes. I chose to include 5 columns because of the 5 navigation icons on the bottom of the page. I had elements that needed to be centered directly and elements I wanted to separate according to the equally spaced icons on the bottom of the screen. A margin in 10px in this case would allow me to properly format any elements close to the edge of the screen. I abided by the principles of [Gestalt theory](https://material.io/design/layout/understanding-layout.html#composition) to organize any visual elements in my design.
 
 
 ## Impression Test
