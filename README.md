@@ -10,30 +10,35 @@ The purpose of this interface design is to convert the previously created low-fi
 
 
 - [Figma Full Design Page](https://www.figma.com/file/bmZ52E8hSogbfnJhyU8JTk/Interface-Design-Page?node-id=0%3A1)
-  - includes test screens, final iterations, digitized wireframes and wireflow, color contrast check, color wheel, and saved color and text styles.
+  - Includes test screens, final iterations, digitized wireframes and wireflow, color contrast check, color wheel, and saved color and text styles.
 
 
-#### Initial Wireframe of the "Lessons" Page that I will design:
-<p>
-  <img src="https://user-images.githubusercontent.com/61765607/167749522-57dd62ac-2007-4a16-8736-d5d45453018e.png" height="350px"/>
-</p>
-
+#### Initial Wireframe of the "Ride" Page that I will design:
+![image](https://user-images.githubusercontent.com/114698093/200813861-53f022a8-70d6-41ac-aff0-f8acf0ebcffa.png)
 
 
 
 ## Graphical Interface Design Variation
 
 ## Design and GUI Component Layout
-![image](https://user-images.githubusercontent.com/61765607/167518848-b0fce3e1-af29-45a6-aa9f-9ad806199394.png)
+![image](https://user-images.githubusercontent.com/114698093/200814120-8005ac1d-1595-418d-8af6-ce30bd928772.png)
 
 ### Decision Process
 In the following analysis, I will highlight the graphical user interface design variations made on a singular wireframe in my interface design. The wireframe I will be featuring in this analysis is the general “Rides” page on the application. I chose to use this page rather than any others as it features a combination of icons, buttons, and several forms of text and layers. Furthermore, the Rides page is one of the central pages on the application and is able to be accessed from the home page directly after opening the app. The features available on the Ride page is also central to the functionality of the application. Digitizing the Rides page and creating this graphic design system will aid me in creating additional pages to my application, as the presets for the texts and colors are programmed into the document. 
 
-## Typography Variations
-![image](https://user-images.githubusercontent.com/61765607/167518952-790acf18-c193-4688-a623-462cac48e2aa.png)
+## Overall Layout
+![image](https://user-images.githubusercontent.com/114698093/200815107-7fdc5e16-836d-488a-ab21-523c572e08a0.png)
 
 ### Decision Process and Design Details
 For typography, I wanted a look that is fun yet professional. First, I tried using the Quicksand font because it has a young, fun appearance with the rounded corners and different boldness options. Second, I tested the Spectral font, which had a much more professional look. After these two tests, I felt that Quicksand appeared slightly too disorganized/unprofessional, and Spectral appeared too formal. I researched more fonts through [Google Fonts](https://fonts.google.com/), and found that Roboto Slab was a happy medium of these two fonts. Using Roboto Slab for every text item on the application was a bit much, so I mixed in Roboto for subtitles, and used Playfair Display for the main app title. My final topography is shown at the very right in the image above. Details for these fonts are below.
+
+
+
+## Typography Variations
+![image](https://user-images.githubusercontent.com/114698093/200814980-b22fa2c9-3588-4bbe-9a9b-4f213ade8c6a.png)
+
+### Decision Process and Design Details
+I tested three button variations: rectangle with slightly rounded corners, rectangle with one circular corner, and rectangle with fully rounded corners. While I thought that the one circular corner option was unique, I felt that it had too much movement in the design. I decided to go with the slightly rounded corner option, because the buttons appeared more stable and stationary. This stationary look is what I feel goes best with learning-topic-buttons. Details for this design are below:
 
 | Text | Typeface | Font Size | Weight |
 |---|---|---|---|
@@ -43,86 +48,75 @@ For typography, I wanted a look that is fun yet professional. First, I tried usi
 | Button Label (H4) | Roboto Slab | 24px | Regular |
 | Status Percent (H6) | Roboto | 11px | Light |
 
-## Button Variations
-![image](https://user-images.githubusercontent.com/61765607/167518995-f2d407e5-9456-49e0-b63a-b39ed5804083.png)
 
-### Decision Process and Design Details
-I tested three button variations: rectangle with slightly rounded corners, rectangle with one circular corner, and rectangle with fully rounded corners. While I thought that the one circular corner option was unique, I felt that it had too much movement in the design. I decided to go with the slightly rounded corner option, because the buttons appeared more stable and stationary. This stationary look is what I feel goes best with learning-topic-buttons. Details for this design are below:
-
-| Width | Height | Padding | Radius |
-|---|---|---|---|
-| 322px | 104px | 8px (left, right) | 12px |
-
-## Chat Icon Variations
-![image](https://user-images.githubusercontent.com/61765607/167519010-68aaaeb6-8bd9-403e-be97-97d943b9881b.png)
+## Shape Variations
+![image](https://user-images.githubusercontent.com/114698093/200815496-6b67f2f0-0eb9-4ce2-8144-60c3d86ac199.png)
 
 ### Decision Process and Design Details
 I accessed these chat icons from [Icons8.com](https://icons8.com/). However, if I had more time on this part of my project, I would have designed each icon by hand. These were the top four chat icons I liked from the site. I tested two round chat shapes, one rectangular chat shape, and one multi-chat icon. When testing these icons, I felt that the circle shape was too tall and looked unprofessional. I appreciated the rectangular icon, but it appeared slightly too square for the overall look. Thus, I decided to use the ovular chat shape because it has less height, but still has roundness. This is seen in the second frame in the image above. The icon image measures 36px by 27px.
 
-## Additional Detailing
-![image](https://user-images.githubusercontent.com/61765607/167519063-37887d10-57ce-4304-9e0f-d1215a2941c9.png)
+## Color Scheme Variation: Light Mode
+![image](https://user-images.githubusercontent.com/114698093/200815603-cecc1fc7-d00d-49c2-926d-27b0a8ceddd0.png)
 
 ### Decision Process and Design Details
 As I continued to look at my design, I felt it needed a more clear grouping of elements. Based on [Gestalt Theory](https://material.io/design/layout/understanding-layout.html#composition), both implicit containment and explicit containment can help improve a design's visual grouping. I decided to create a unique shape to add movement and create explicit containment around the top section of the screen. Details for the shape design are documented under [Design Summary](#design-summary). I then utilized my original grid layout to ensure that the elements were still spaced properly. Lastly, I added a drop-shadow to the buttons and rounded the corners of the status bars (2px). The final design is shown in the rightmost frame in the image above.
 
-## Color Variations
-![image](https://user-images.githubusercontent.com/61765607/167519474-205c471a-09c4-4b52-869c-fb41e39416c6.png)
+## Color Scheme Variation: Dark Mode
+![image](https://user-images.githubusercontent.com/114698093/200815709-04091275-5169-4c8a-851c-43467a541a3b.png)
 
 ### Decision Process and Design Details
 I tested several different color variations. Six are shown above. To help me decide color schemes, I used [Adobe Color](https://color.adobe.com/create/color-wheel) for color combinations and [Visme](https://visme.co/blog/website-color-schemes/) for further inspiration. I tested Analagous, Complementary, Monochromatic, and Primary color combinations. Different shades and hues were used to color the individual components of the design. I researched more about color psychology, specifically for [color in branding](https://www.ignytebrands.com/the-psychology-of-color-in-branding/#3), and found that blue and purple hues are what I would like to use for my music learning app. Blue instills a sense of dependability, logic, serenity, and security. Whereas purple instills a sense of wisdom, imagination, and sophistication. I decided to test more variations of the monochromatic indigo design in the bottom left frame shown above.
 
-## Monochromatic Indigo Variations
-![image](https://user-images.githubusercontent.com/61765607/167519493-647f1fee-d9c1-429f-8f1b-9c08af61d575.png)
+## Design Summary
 
-### Decision Process and Design Details
-To further test the color variations, I used a [Preference Test](https://usabilityhub.com/guides/preference-testing) to see which design was most appealing to users. The feedback I got from this test is as follows:
+Typography: 
+- Decorative Headers: Merriweather, Bold, 38 Font Size, 5% Spacing
+- Headers: Merriweather, Bold, 24 Font Size, 0.2 px Spacing
+- Button Text: Work Sans, Semibold, 22 Font Size, 0.2 px Spacing
+- Subheaders: Work Sans, Medium, 20 Font Size, 0.2 px Spacing
+- Light Body Text: Work Sans, Light, 18 Font Size, 0 px Spacing
+- Icon Labels: Work Sans, Regular, 20 Font Size, 0 px Spacing
+- Navigation Bar Text: Work Sans, Regular, 20 Font Size, 0 px Spacing
+Color Scheme (Light Mode):
+- Primary Color: Light Sage Green
+- Secondary: Sky Blue
+- Focus: Off-White
+- Text: Black
+Color Scheme (Dark Mode):
+- Primary: Black
+- Secondary: Brown
+- Focus: Forest Green
+- Text: White
+Layout: 
+- I created 16 rows and 5 columns with gutters of 20px and margins of 77px and 10px for the rows and columns respectively. I chose to include 16 rows in my layout as I had 16 elements of text at different y-axis locations inside the two information boxes. Margins of 77px would allow me to tightly encompass the two rectangles into the layout, allowing me to equally and efficiently space out my text in the two boxes. I chose to include 5 columns because of the 5 navigation icons on the bottom of the page. I had elements that needed to be centered directly and elements I wanted to separate according to the equally spaced icons on the bottom of the screen. A margin in 10px in this case would allow me to properly format any elements close to the edge of the screen. I abided by the principles of Gestalt theory *link* to organize any visual elements in my design.
 
-| Screen 1 | Screen 2 | Screen 3 |
-|---|---|---|
-| "The title looks a little too dark" | "It's too purple for me" | "The icons at the bottom are hard to see" |
-| "I can't see the button labels very well" | "The menu icon is hard to see" | "I like this bluer color more" |
-| "I don't like how the buttons are darker than the background" | "I like the buttons' contrast with the background" | "The buttons really stand out here" |
-
-Overall, participants preferred Screen 3, with the minor issue that the bottom buttons were difficult to see. The title text has great contrast with the background design, making it stand out. The button labels stand out clearly against the light button color. And the menu and chat icons are a brighter color so they do not get lost in the dark background. I made some small changes to lighten the bottom bar, and my final color design is shown below (in light and dark mode).
-
-![image](https://user-images.githubusercontent.com/61765607/167723109-c1c0b2ac-2cd6-4c94-9dcd-669777d73238.png)
 
 ## Impression Test
-According to Yale University's [usability site](https://usability.yale.edu/usability-testing/impression-testing), two popular ways for impression testing are picking adjectives, and the five-second test. I decided to conduct both these tests with separate samples of participants. I made the Picking-Adjectives test through Google Forms, and sent the test to 50 undergraduate students at UCLA (sent via groupme). I made the Five-Second Test through Usability Hub, and sent this test to 20 friends and family living in Orange County (sent via iMessage). I felt that my close friends/family should take the Five-Second Test rather than the Adjectives test to reduce bias. The students participating in the Adjectives test were past classmates who I have never met in person. 13 responses were submitted for the Five-Second Test, and 36 responses were submitted for the Picking-Adjectives Test. Results are below:
+In order to conduct an impression test for my newly-designed Rides page, I created a two-part survey using Usabilityhub and invited a friend that fits within the target user demographic to take the test. The test-taker recorded her screen and audio commentary while going through the survey, as well as submitted her feedback for the site to compile. The first part of the survey included a 5 second impression test, where my Rides page was displayed to the test-taker for only 5 seconds before asking for a description of what she remembered and what purpose she thought the application could serve. The second part of the survey included a design survey, wherein the test taker was provided with contextual information about the application and was allowed to reference the Rides page while providing feedback. Questions were focused on understanding what design elements the test-taker liked and disliked, as well as what emotions she felt in interacting with the page. In this way, I was able to see what a potential user’s first impressions of the page might be, as well as gain specific feedback on whether the look and feel of the page’s design fit the larger intention behind the application. 
 
-### Five-Second Test Results
-- [Test Link](https://app.usabilityhub.com/do/809e883c8d25/1156)
-- [Result Link](https://app.usabilityhub.com/tests/809e883c8d25/results/428fc872da2f)
 
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/61765607/167695143-f59d0963-2f37-4798-9689-66f6935f8ad4.png" height="350px"/>
-  <img src="https://user-images.githubusercontent.com/61765607/167714940-505b63db-ac8e-4bfa-92f2-8a7c86e178b2.png" height="350px"/>
-</p>
+### Five-Second Test Results:
+Link to the Five-Second Impression Test linked [here](https://app.usabilityhub.com/do/94e8ec5b15ef/dda).
+Video file of screen recording and audio commentary linked [here](https://drive.google.com/file/d/19Zx_8kg90X-Rh0u-f3vDsOs4wmYZ5NvZ/view?usp=sharing).
 
-### Observations
+### Summary of Findings:
 Based on results for the "What is this app used for" question, the top impressions users noted were music, learning, tuning, and reading. It was interesting to see that many users believed the app's purpose was for tuning instruments. I think that this was a common answer because the app name is "TuneMate". Perhaps I should consider exploring other name options for the application, because the word "Tune" might be misleading for the app's purpose. However, "music" and "learning" were the most popular answers, which tells me that the main purpose of the app was conveyed to most users. Based on results for the word/sentence recall question, most users recalled rhythm, reading, fundamentals, and basic. These results demonstrated that the overall lesson names really stood out to users.
 
-### Picking-Adjectives Test Results
-- [Test Link](https://forms.gle/N1bJCiBRc2SVrBck7)
-- [Results CSV](https://docs.google.com/spreadsheets/d/1g1CKhkWu_7A0O1mrV_O0AlGM9rhEp_qRgdgSgpGE7Eg/edit?usp=sharing)
-
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/61765607/167696281-c2dd2b66-a278-4597-b0c5-14abeb366857.png" height="260px", width="800px"/>
-  <img src="https://user-images.githubusercontent.com/61765607/167696345-e559b08a-ffd1-46db-810d-72e591462857.png" height="260px", width="800px"/>
-  <img src="https://user-images.githubusercontent.com/61765607/167696392-e4bc023a-18fa-4ae3-b13a-31472c1b48d6.png" height="260px", width="800px"/>
-</p>
-
 ### Observations
-Based on these results, it appeared that most users felt the app looked calm, simple, fresh, and useful. Many users also felt that the app apeared familiar and professional. It was encouraging to see these results, because I hoped to make the design as simple as possible but still appear useful and professional. A few users also said the app appeared to look cheap. I reached out to some design friends and they noted that the bottom-bar icons devalue the overall look. As I continue my design process, I will investigate other icon options and spend more time choosing icons that look sophisticated and fit the design well.
+Overall, I was quite pleased with how the impression test and design survey went. Within only 5 seconds, the test-taker was able to identify that the Rides page was part of an application that combined ride sharing with other functions. She also was able to identify the two different options for Carpool and Commute Group functions, demonstrating to me that separating them out into different boxes was the right choice with regards to page design, as the two separate boxes allowed her to quickly determine that there are two separate options for Rides. In addition, I was also pleased to see that she made the connection between application purpose and the color scheme being geared towards Earth-toned, fresh colors. This also contributed to the feeling of calmness that the test-taker reported feeling, which was important to me to develop, as test users in previous assignments noted that sustainability efforts tend to feel high-stress and pessimistic. Lastly, the test-taker noted that the icons and their respective labels, as well as the text descriptions, allowed her to feel a sense of excitement and confidence in reviewing the page — she noted that she felt like these design components allowed her to feel “the opposite of frustration” in knowing what to expect. However, she did note that the Title font might look too sharp for the application. This sharpness is because I chose a combination of serif font for the headers and san serif font for body text in my final typography iteration. In this case, one fix might be to pick a serif header with less “sharp” features, or potentially to abandon the mixed aesthetic and pick a sans serif font for the header as well. Ultimately, however, I was very satisfied with how the final Rides page performed in both the 5 second impression test and the design survey questions.
 
-## Accessibility Test
-To run a color-contrast check of my final design, I utilized the Spark plugin in Figma. The test results are shown below:
+## Transcript:
+Part 1: 5 Second Impression Test
+Q1. Could you describe what you remember seeing?
+Mobile app - Rides title at top, two blue squares with Carpool and Commuting functions — two buttons in the blue boxes, toolbar at bottom
+Q2. What do you think the purpose of this application is?
+Multipurpose — Ride sharing plus other functions (home / profile / shop?)
 
-![image](https://user-images.githubusercontent.com/61765607/167722564-e307eb48-e41f-4eea-87fa-d8f0058c7c80.png)
+Part 2: Design Survey Questions
+This screen is the Rides page of a social media application, designed to make sustainable living more efficient and accessible.
 
-
-# Design Summary
-
-![image](https://user-images.githubusercontent.com/61765607/167738544-8148ddf1-c10d-4f2c-852c-2759c3aa5401.png)
-
+Q1. Which parts of the design do you like and dislike? Q2. What feelings does this page evoke?
+Dislike: Title / Header font (Rides, Carpool) looks too sharp
+Like: Icons are straightforward, easy to understand; text descriptors are really useful in differentiating function; color scheme is good for sustainability app.
+Feelings: calm, fresh, relaxed, ease of use; descriptors make you feel excited to use the different functions and feel like you know what to expect (not frustrated and confused.)
 
