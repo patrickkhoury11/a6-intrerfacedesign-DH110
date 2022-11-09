@@ -46,16 +46,13 @@ Typography in interface promotes legibility, communicates tone and sentiment, an
 - In iteration two, I chose Baskerville and Inter font families. Baskerville is a serif, whereas Inter is a san serif. While conducting more research, I came across an [article](https://looka.com/blog/best-serif-fonts/) written by Enina Bicaku, a content marketing specialist with an emphasis in graphic design. The article listed advice when pairing serifs and san serifs. Furthermore, I found that you should not use serif fonts for long-form display text. Rather, serif headings pair well with sans serif bodies in digital environments. I mixed this around in my first iteration so I made sure to correct it in the second. Although there were vast improvements, I still didn’t love this iteration, as the Baskerville font did not come with the option to bold or lighten. Having different font weights in different places is crucial to my design, as the differences between them promote legibility and will lead users in the correct direction. 
 - After testing a few combinations I decided on Work Sans and Merriweather as the two font families featured in my application. This combination hit all of the suggestions referenced in the aforementioned sources and met my own personal criteria. I wanted the serif I chose to look clean and modern to avoid compromising the trustworthiness or legitimacy of the application. I prioritized the fit and readability when selecting the body text. The Merriweather serif would be utilized for the headers in the application and the Work Sans san-serif would be utilized for the body texts. In this final iteration, I also changed the alignment of the text under carpool and commute group to make the text a little more neat and away from the margins.  For the font sizes and letter spacing, I referred to the ratio recommended by [material design](https://material.io/design/typography/the-type-system.html#type-scale) and made small edits as needed. The specifications of the text are listed below. 
 
-
-| Text | Typeface | Font Size | Weight | Spacing |
-|---|---|---|---|
-| Decorative Headers | Merriweather | 38px | Bold | 5% |
-| Headers | Merriweather | 34px | Bold | 0.2 px |
-| Button Text | Work Sans | 22px | Semibold | 0.2 px |
-| Subheaders | Work Sans | 20px | Medium | 0.2 px |
-| Light Body Text | Work Sans | 18px | Light | 0 px |
-| Icon Labels | Work Sans | 20px | Regular | 0 px |
-| Navigation Bar Text | Work Sans | 20px | Regular | 0 px |
+- Decorative Headers: Merriweather, Bold, 38 Font Size, 5% Spacing
+- Headers: Merriweather, Bold, 24 Font Size, 0.2 px Spacing
+- Button Text: Work Sans, Semibold, 22 Font Size, 0.2 px Spacing
+- Subheaders: Work Sans, Medium, 20 Font Size, 0.2 px Spacing
+- Light Body Text: Work Sans, Light, 18 Font Size, 0 px Spacing
+- Icon Labels: Work Sans, Regular, 20 Font Size, 0 px Spacing
+- Navigation Bar Text: Work Sans, Regular, 20 Font Size, 0 px Spacing
 
 
 ## Shape Variations
